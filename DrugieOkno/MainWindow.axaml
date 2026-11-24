@@ -4,6 +4,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="DrugieOkno.MainWindow"
-        Title="DrugieOkno">
-    Warsztat
+        Title="Warsztat aplikacja"
+        Width="500"
+        Height="350"
+        Background="LightGray">
+    <StackPanel HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Spacing="15">
+        <TextBlock Text="Warsztat"
+                   FontSize="28"
+                   FontWeight="Bold"
+                   Foreground="Navy"
+                   HorizontalAlignment="Center"/>
+        <TextBlock Text="Wersja testowa"
+                   HorizontalAlignment="Center"/>
+        <Button Content="Kliknij mnie"
+                Background="Red"
+                Foreground="White"
+                HorizontalAlignment="Center"/>
+        <TextBox Width="220"
+                 Watermark="Wpisz swoje imie"
+                 HorizontalAlignment="Center"/>
+        <CheckBox Content="Gotowe"
+                  HorizontalAlignment="Center"/>
+    </StackPanel>
 </Window>
